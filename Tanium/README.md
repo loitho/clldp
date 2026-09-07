@@ -7,9 +7,10 @@ Collection of Tanium config
 - Tanium Sensor only read and parses the file every 24H, that was the sensor is extremely quick and not dependent on a script that runs on the machine.
 
 ## files
-- `Network Neighbors LLDP [Linux].json` => Package to collect info from the Local file for Linux 
-- `Network Neighbors LLDP [Windows].json` => Package to collect info from the Local file for Windows 
-- `Network-Neighbors-LLDP-Sensor.json` => Package to collect info from the Local file for Windows 
+- `Network Neighbors LLDP [Linux].json` => Package to create the Local file with LLDP info for Linux 
+- `Network Neighbors LLDP [Windows].json` => Package to create the Local file with LLDP info for Windows
+- `tanium-lldp.py` => Python file to collect LLDPd information on linux and write it to a file
+- `Network-Neighbors-LLDP-Sensor.json` => Sensor to collect info from the Local file for Windows and linux 
 
 ## Features
 
