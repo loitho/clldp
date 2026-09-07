@@ -1,10 +1,15 @@
-# CLLDP
+# Tanium
 
-A C# .Net 8 Console App, which uses pktmon.exe (Windows 10 and above) to capture LLDP data, then parses that data.
+Collection of Tanium config 
 
-## Modification + Tanium :
-- Add file formatted for Tanium Sensor in `C:\temp\tanium-lldp.txt`
-- `Network-Neighbors-LLDP.json` is the Sensor that collects the info from this file
+## How it works
+- We run the script every 24H through a Tanium package to write a file on the OS.
+- Tanium Sensor only read and parses the file every 24H, that was the sensor is extremely quick and not dependent on a script that runs on the machine.
+
+## files
+- `Network Neighbors LLDP [Linux].json` => Package to collect info from the Local file for Linux 
+- `Network Neighbors LLDP [Windows].json` => Package to collect info from the Local file for Windows 
+- `Network-Neighbors-LLDP-Sensor.json` => Package to collect info from the Local file for Windows 
 
 ## Features
 

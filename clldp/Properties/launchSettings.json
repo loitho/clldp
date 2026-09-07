@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "clldp": {
+      "commandName": "Project",
+      "commandLineArgs": "-debug"
+    }
+  }
+}
